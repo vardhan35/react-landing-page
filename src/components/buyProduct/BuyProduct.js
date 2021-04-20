@@ -2,7 +2,6 @@ import React from 'react'
 import {Formik, Form, Field, ErrorMessage} from 'formik'
 import * as Yup from 'yup'
 import styles from './buy.module.css'
-import { string } from 'yup/lib/locale'
 
 
 const BuyProduct = () => {
