@@ -1,0 +1,53 @@
+:root{
+    --blue : #325288;
+    --wheat : #f4eee8;
+    --genhu : #f5cebe;
+    --greeny : #114e60;
+}
+
+.navbar{
+    width: 100%;
+    background-color: var(--blue);
+    font-size: 1.5rem;
+
+}
+
+.nav{
+    width: 90%;
+    max-width: 700px;
+    margin: auto;
+    height: 10vh;
+}
+
+.ul{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    list-style: none;
+    text-decoration: none;
+    height: 100%;
+}
+
+.li{
+    text-decoration: none;
+    align-items: center;
+    margin: auto;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    margin: auto;
+    padding: 0.5em;
+    color: white;
+
+}
+
+a:hover{
+    background-color: var(--wheat);
+    color: black;
+    border-radius: 0.15em;
+}
+a:active{
+    background-color: var(--wheat);
+    color: black;
+}
